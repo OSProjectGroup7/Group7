@@ -1,6 +1,6 @@
 package İsletim;
 
-public class MemoryAllocator {
+public class MemoryAllocator { //memory düzenleyici
 	 MemoryAllocateAlgorithms memoryList;
 	    int realTimeMemorySize; // Realtime processler için ayrılan bellek boyutu
 	    Mab lastAllocatedBlock; // Next fit algoritması için son yerleştirilen blok
